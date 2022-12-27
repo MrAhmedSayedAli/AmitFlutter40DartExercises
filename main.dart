@@ -23,5 +23,12 @@ main() {
   print(myList);
 
   myList.forEach((element) { print('Hi $element');});
+  print("============================");
+  List numbers = [2,3,4,5,6,7,8,9];
+  numbers.forEach((element) { print(element+1);});
+  print("============================");
+  numbers.forEach((element) { print("number is :${element+1}");});
+
+
 }
 
