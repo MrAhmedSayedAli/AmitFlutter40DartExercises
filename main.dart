@@ -22,5 +22,6 @@ main() {
   myList.insertAll(3, ['NameElse1','NameElse2']);
   print(myList);
 
+  myList.forEach((element) { print('Hi $element');});
 }
 
