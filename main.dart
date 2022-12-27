@@ -64,4 +64,10 @@ main() {
  */
 
   print("============================");
+  List names = ['ahmed','zeinab','mark','ali','mostafa','hind','tahany'];
+  print(names); //[ahmed, zeinab, mark, ali, mostafa, hind, tahany]
+  names.removeWhere((element) => element.length == 3);
+  print(names); //[ahmed, zeinab, mark, mostafa, hind, tahany]
+  print("============================");
+  print("============================");
 }
