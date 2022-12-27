@@ -70,6 +70,11 @@ main() {
   print(names); //[ahmed, zeinab, mark, mostafa, hind, tahany]
   print("============================");
   var generateList = List.generate(10, (index) => "Index $index");
-  print(generateList);
+  print(generateList);//[Index 0, Index 1, Index 2, Index 3, Index 4, Index 5, Index 6, Index 7, Index 8, Index 9]
+  print(generateList[3].runtimeType);//String
+  print("============================");
+  var generateListYears = List.generate(24, (index) => index+2000);
+  print(generateListYears);//[2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
+  print(generateListYears[3].runtimeType);//int
   print("============================");
 }
