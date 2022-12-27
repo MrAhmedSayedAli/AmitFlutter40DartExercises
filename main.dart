@@ -69,5 +69,7 @@ main() {
   names.removeWhere((element) => element.length == 3);
   print(names); //[ahmed, zeinab, mark, mostafa, hind, tahany]
   print("============================");
+  var generateList = List.generate(10, (index) => "Index $index");
+  print(generateList);
   print("============================");
 }
